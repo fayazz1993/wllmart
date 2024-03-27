@@ -1,7 +1,7 @@
 pipeline {
 agent any
 stages{
-stage('Checkout'){
+stage('CheckoutCode'){
 steps{
 sh "mvn clean package"
 }
